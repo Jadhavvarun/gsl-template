@@ -1,3 +1,22 @@
+/* index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 8px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* color of the scrollbar */
+    border-radius: 4px; /* roundness of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* color of the scrollbar on hover */
+}
