@@ -5,6 +5,27 @@ import dashboard from "../assets/dashboard.jpg";
 export default function Home() {
   return (
     <>
+  <Element name="section2" className="h-[450px] bg-gradient-to-br from-blue-900 via-brand-200 via-brand-300 via-purple-600 to-indigo-900">
+        <div className="container mx-auto h-full flex flex-col justify-center items-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-4">
+            The Simplest URL Shortener You Were Waiting For
+          </h2>
+          <p className="text-gray-300 text-lg md:text-xl mb-6 text-center">
+            Shorten your links effortlessly with our easy-to-use tool.
+          </p>
+          <div className="flex gap-4">
+            <input
+              type="text"
+              placeholder="Enter Your Link"
+              className="p-3 border border-white bg-transparent rounded-lg text-white placeholder-gray-300 focus:outline-none "
+            />
+            <button className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded focus:outline-none focus:shadow-outline">
+              Generate Shortlink
+            </button>
+          </div>
+        </div>
+      </Element>
+
       {/* Section 1: Unlock Insights */}
       <div className="h-screen bg-brand-50 flex items-center justify-center">
         <div className="container mx-auto px-4">
@@ -40,26 +61,7 @@ export default function Home() {
       </div>
 
       {/* Section 2: Additional Section (Placeholder) */}
-      <Element name="section2" className="h-[450px] bg-gradient-to-br from-blue-900 via-brand-200 via-brand-300 via-purple-600 to-indigo-900">
-        <div className="container mx-auto h-full flex flex-col justify-center items-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-4">
-            The Simplest URL Shortener You Were Waiting For
-          </h2>
-          <p className="text-gray-300 text-lg md:text-xl mb-6 text-center">
-            Shorten your links effortlessly with our easy-to-use tool.
-          </p>
-          <div className="flex gap-4">
-            <input
-              type="text"
-              placeholder="Enter Your Link"
-              className="p-3 border border-white bg-transparent rounded-lg text-white placeholder-gray-300 focus:outline-none "
-            />
-            <button className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-6 rounded focus:outline-none focus:shadow-outline">
-              Generate Shortlink
-            </button>
-          </div>
-        </div>
-      </Element>
+      
 
       {/* Section 3: Additional Section (Placeholder) */}
       <div className="h-screen bg-white">
