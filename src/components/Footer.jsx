@@ -67,7 +67,7 @@ const Footer = () => {
                   <br /> new features & offers.
                 </p>
                 <form className="flex items-center justify-between bg-white rounded-md overflow-hidden">
-                  <span className="text-blue-3 px-4 py-2">
+                  <span className="text-blue-900 px-4 py-2">
                     <FiMail size={20} />
                   </span>
                   <input
@@ -75,7 +75,7 @@ const Footer = () => {
                     placeholder="Your email"
                     className="px-2 md:px-2 py-2 md:py-2 border-0 focus:outline-none text-black text-sm md:text-base flex-grow"
                   />
-                  <button className="bg-red-1 text-white mr-1 rounded-md px-2 md:px-6 py-2 hover:bg-red-900 focus:outline-none text-sm md:text-base">
+                  <button className="bg-indigo-900 text-white mr-1 rounded-md px-2 md:px-6 py-2 duration-400 hover:bg-indigo-800 focus:outline-none text-sm md:text-base">
                     <BsSendFill />
                   </button>
                 </form>
